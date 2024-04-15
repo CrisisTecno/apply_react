@@ -1,0 +1,10 @@
+*{
+ justify-content: center;   
+ align-items: center;
+}
+
+/* <CardContent>
+					
+					< Typography variant = "body2" color = "text.secondary" > Price: ${ row.price } </Typography>
+						< Typography variant = "body2" color = "text.secondary" > MSRP: ${ row.msrp } </Typography>
+							< /CardContent> */
