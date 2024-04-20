@@ -75,9 +75,10 @@ export type ModelProductConnection = {
 export type Product = {
   __typename: "Product",
   id: string,
+  quantity:number,
   name?: string | null,
   msrp?: number | null,
-  price?: number | null,
+  price: number ,
   sku?: string | null,
   description?: string | null,
   status?: ProductStatusEnum | null,
